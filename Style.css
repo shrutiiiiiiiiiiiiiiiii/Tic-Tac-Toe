@@ -231,3 +231,118 @@ h1 {
         transform: translateY(0);
     }
 }
+
+/* ── Responsive: Tablets ── */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .turn-indicator {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+        padding: 1rem;
+    }
+
+    .box {
+        height: 20vmin;
+        width: 20vmin;
+        font-size: 8vmin;
+    }
+
+    .winner-card {
+        padding: 2.5rem 3rem;
+    }
+
+    #msg {
+        font-size: 1.3rem;
+    }
+}
+
+/* ── Responsive: Mobile ── */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 1.2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .turn-indicator {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+
+    #current-player {
+        font-size: 1.1rem;
+    }
+
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+        padding: 0.8rem;
+        border-radius: 1rem;
+        gap: 1vmin;
+    }
+
+    .box {
+        height: 23vmin;
+        width: 23vmin;
+        max-height: none;
+        max-width: none;
+        font-size: 9vmin;
+        border-radius: 0.75rem;
+    }
+
+    .container {
+        gap: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #Reset-btn,
+    #New-btn {
+        padding: 0.7rem 1.8rem;
+        font-size: 0.95rem;
+    }
+
+    .winner-card {
+        padding: 2rem 2rem;
+        gap: 1.5rem;
+        margin: 0 1rem;
+        border-radius: 1.5rem;
+    }
+
+    #msg {
+        font-size: 1.1rem;
+    }
+}
+
+/* ── Responsive: Small phones ── */
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .game {
+        height: 85vmin;
+        width: 85vmin;
+        padding: 0.5rem;
+    }
+
+    .box {
+        height: 24vmin;
+        width: 24vmin;
+        font-size: 10vmin;
+    }
+
+    #Reset-btn,
+    #New-btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.85rem;
+    }
+}
