@@ -13,7 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ── Heading ── */
 h1 {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -44,7 +43,6 @@ h1 {
     font-size: 1.3rem;
 }
 
-/* ── Game Container ── */
 .container {
     display: flex;
     flex-direction: column;
@@ -73,7 +71,6 @@ h1 {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
 }
 
-/* ── Tiles ── */
 .box {
     height: 17vmin;
     width: 17vmin;
@@ -118,7 +115,6 @@ h1 {
     text-shadow: 0 0 15px rgba(255, 107, 157, 0.5);
 }
 
-/* ── Buttons ── */
 #Reset-btn,
 #New-btn {
     padding: 0.85rem 2.2rem;
@@ -146,7 +142,6 @@ h1 {
     transform: translateY(0);
 }
 
-/* ── Winner Message ── */
 #msg {
     color: #fff;
     font-size: 1.6rem;
@@ -185,7 +180,6 @@ h1 {
     display: none !important;
 }
 
-/* ── Animations ── */
 @keyframes fadeIn {
     from {
         opacity: 0;
